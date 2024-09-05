@@ -1,0 +1,414 @@
+{
+  "am1": [
+    {
+      "name": "Pre-Experience",
+      "comment": "Pre-Experience Look",
+      "macros": [
+        {
+          "type": "release",
+          "id": "25:9999"
+        },
+        {
+          "type": "release",
+          "id": 2172
+        },
+        {
+          "type": "select",
+          "id": 2168,
+          "trigger": true,
+          "song": false
+        },
+        {
+          "type": "companion",
+          "id": "pre-x",
+          "button_txt": "PreX",
+          "pp_item": -1
+        },
+        {
+          "type": "house",
+          "look": "pre"
+        },
+        {
+          "type": "haze",
+          "output": "med"
+        }
+      ]
+    },
+    {
+      "name": "1 Minute Countdown",
+      "comment": "Blackout Stage + Lyrics",
+      "macros": [
+        {
+          "type": "select",
+          "id": 2168,
+          "cue": 2,
+          "trigger": true
+        },
+        {
+          "type": "companion",
+          "id": "1min",
+          "button_txt": "1MIN",
+          "pp_item": -1
+        },
+        {
+          "type": "house",
+          "look": "opener"
+        },
+        {
+          "type": "haze",
+          "output": "max"
+        }
+      ]
+    },
+    {
+      "name": "Some Song 1",
+      "comment": "Song: Some Song 1 - Some Author",
+      "macros": [
+        {
+          "type": "stage",
+          "look": "worship-med"
+        },
+        {
+          "type": "select",
+          "id": "Some Song 1 - Some Author",
+          "trigger": true,
+          "song": true
+        },
+        {
+          "type": "companion",
+          "id": "open-first",
+          "button_txt": "Opener",
+          "pp_item": 1
+        },
+        {
+          "type": "house",
+          "look": "opener"
+        },
+        {
+          "type": "haze",
+          "output": "med"
+        },
+        {
+          "type": "release",
+          "id": 2168
+        }
+      ]
+    },
+    {
+      "name": "Welcome",
+      "comment": "Prelim: Welcome",
+      "macros": [
+        {
+          "type": "select",
+          "id": 2169,
+          "trigger": true,
+          "song": false
+        },
+        {
+          "type": "house",
+          "look": "prelim"
+        },
+        {
+          "type": "stage",
+          "look": "center-med"
+        },
+        {
+          "type": "companion",
+          "id": "prelim",
+          "button_txt": "Prelim",
+          "pp_item": -1
+        },
+        {
+          "type": "haze",
+          "output": "light"
+        },
+        {
+          "type": "release",
+          "id": "Some Song 1 - Some Author"
+        }
+      ]
+    },
+    {
+      "name": "A Video",
+      "comment": "Prelim: A Video",
+      "macros": [
+        {
+          "type": "house",
+          "look": "video"
+        },
+        {
+          "type": "companion",
+          "id": "prelim-vid",
+          "button_txt": "Video",
+          "pp_item": -1
+        },
+        {
+          "type": "stage",
+          "look": "bo-med"
+        },
+        {
+          "type": "select",
+          "id": 2335,
+          "trigger": true,
+          "song": false
+        },
+        {
+          "type": "release",
+          "id": 2169
+        }
+      ]
+    },
+    {
+      "name": "Offering",
+      "comment": "Prelim: Offering",
+      "macros": [
+        {
+          "type": "select",
+          "id": 2169,
+          "trigger": true,
+          "song": false
+        },
+        {
+          "type": "house",
+          "look": "prelim"
+        },
+        {
+          "type": "stage",
+          "look": "center-med"
+        },
+        {
+          "type": "companion",
+          "id": "prelim",
+          "button_txt": "Prelim",
+          "pp_item": -1
+        },
+        {
+          "type": "haze",
+          "output": "light"
+        },
+        {
+          "type": "release",
+          "id": 2335
+        }
+      ]
+    },
+    {
+      "name": "Call To Worship",
+      "comment": "Worship: Call To Worship ",
+      "macros": [
+        {
+          "type": "select",
+          "id": 2169,
+          "cue": 2,
+          "trigger": true
+        },
+        {
+          "type": "house",
+          "look": "2-1"
+        },
+        {
+          "type": "haze",
+          "output": "max"
+        },
+        {
+          "type": "companion",
+          "id": "prelim-ctw",
+          "button_txt": "CTW",
+          "pp_item": 2
+        }
+      ]
+    },
+    {
+      "name": "Another Song",
+      "comment": "Song: Another Song - Some Random Artist",
+      "macros": [
+        {
+          "type": "stage",
+          "look": "worship-med"
+        },
+        {
+          "type": "select",
+          "id": "Another Song - Some Random Artist",
+          "trigger": true,
+          "song": true
+        },
+        {
+          "type": "companion",
+          "id": "worship-first",
+          "button_txt": "Worship",
+          "pp_item": 2
+        },
+        {
+          "type": "house",
+          "look": "2-1"
+        },
+        {
+          "type": "haze",
+          "output": "med"
+        },
+        {
+          "type": "release",
+          "id": 2169
+        }
+      ]
+    },
+    {
+      "name": "A Hymn",
+      "comment": "Song: A Hymn - The Songbook",
+      "macros": [
+        {
+          "type": "stage",
+          "look": "worship-med"
+        },
+        {
+          "type": "select",
+          "id": "A Hymn - The Songbook",
+          "trigger": true,
+          "song": true
+        },
+        {
+          "type": "companion",
+          "id": "worship-other",
+          "button_txt": "Worship",
+          "pp_item": 3
+        },
+        {
+          "type": "house",
+          "look": "2-2"
+        },
+        {
+          "type": "haze",
+          "output": "light"
+        },
+        {
+          "type": "release",
+          "id": "Another Song - Some Random Artist"
+        }
+      ]
+    },
+    {
+      "name": "Sermon",
+      "comment": "Message: Sermon",
+      "macros": [
+        {
+          "type": "select",
+          "id": 2170,
+          "trigger": true,
+          "song": false
+        },
+        {
+          "type": "house",
+          "look": "preach"
+        },
+        {
+          "type": "stage",
+          "look": "message"
+        },
+        {
+          "type": "haze",
+          "output": "off"
+        },
+        {
+          "type": "companion",
+          "id": "message",
+          "button_txt": "Message",
+          "pp_item": -1
+        },
+        {
+          "type": "release",
+          "id": "A Hymn - The Songbook"
+        }
+      ]
+    },
+    {
+      "name": "Altar",
+      "comment": "Altar Look",
+      "macros": [
+        {
+          "type": "select",
+          "id": 2170,
+          "cue": 2,
+          "trigger": true
+        },
+        {
+          "type": "stage",
+          "look": "worship-slow"
+        },
+        {
+          "type": "companion",
+          "id": "altar",
+          "button_txt": "Altar",
+          "pp_item": 4
+        },
+        {
+          "type": "house",
+          "look": "altar-worship"
+        }
+      ]
+    },
+    {
+      "name": "Post-Experience",
+      "comment": "Post-Experience Look",
+      "macros": [
+        {
+          "type": "select",
+          "id": 2168,
+          "trigger": true
+        },
+        {
+          "type": "release",
+          "id": "140:9999"
+        },
+        {
+          "type": "companion",
+          "id": "post-x",
+          "button_txt": "PostX",
+          "pp_item": -1
+        },
+        {
+          "type": "house",
+          "look": "pre"
+        }
+      ]
+    },
+    {
+      "name": "Cleanup",
+      "comment": "Cleanup Look",
+      "macros": [
+        {
+          "type": "trigger",
+          "id": 2172
+        },
+        {
+          "type": "companion",
+          "id": "clear",
+          "button_txt": "CLEAR",
+          "pp_item": -1
+        },
+        {
+          "type": "select",
+          "id": "none"
+        }
+      ]
+    },
+    {
+      "name": "Power Down",
+      "comment": "Power Down Look",
+      "macros": [
+        {
+          "type": "release",
+          "id": "25:9999"
+        },
+        {
+          "type": "reset"
+        },
+        {
+          "type": "release",
+          "id": "this"
+        }
+      ],
+      "time": 1,
+      "auto": true
+    }
+  ]
+}
