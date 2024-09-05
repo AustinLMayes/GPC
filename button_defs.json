@@ -1,0 +1,894 @@
+{
+    "home": {
+        "type": "button",
+        "style": {
+          "text": "HOME",
+          "size": "auto",
+          "png": null,
+          "alignment": "center:center",
+          "pngalignment": "center:center",
+          "color": 16777215,
+          "bgcolor": 204,
+          "show_topbar": "default",
+          "latch": false
+        },
+        "options": {
+          "relativeDelay": false,
+          "stepAutoProgress": true,
+          "rotaryActions": false
+        },
+        "feedbacks": [],
+        "steps": {
+          "0": {
+            "action_sets": {
+              "down": [
+                {
+                  "id": "tbkQTNFWKgZ78AXZJom1f",
+                  "label": "bitfocus-companion:set_page",
+                  "instance": "internal",
+                  "action": "set_page",
+                  "options": {
+                    "controller": "self",
+                    "page": "1"
+                  },
+                  "delay": 0
+                }
+              ],
+              "up": []
+            },
+            "options": {
+              "runWhileHeld": []
+            }
+          }
+        }
+      },
+    "r-thru": {
+      "type": "button",
+      "style": {
+        "text": "R-THRU",
+        "size": "auto",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 153,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "DIHPFKsn8e0nag6eTLzeO",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 29,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "CFg6S_7cTjjKbJwQDF0Kj",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 30,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 12,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "sd-lock": {
+        "type": "button",
+        "style": {
+          "text": "SD LOCK",
+          "size": "auto",
+          "png": null,
+          "alignment": "center:center",
+          "pngalignment": "center:center",
+          "color": 16777215,
+          "bgcolor": 5594966,
+          "show_topbar": "default"
+        },
+        "options": {
+          "relativeDelay": false,
+          "stepAutoProgress": true
+        },
+        "feedbacks": [
+          {
+            "id": "a2kf9IC2HcHCbKkmgEqF5",
+            "type": "instance_custom_state",
+            "instance_id": "internal",
+            "options": {
+              "instance_id": "o9c4iq_xaVccR5XrnclO8",
+              "state": null
+            },
+            "style": {
+              "color": 16777215,
+              "bgcolor": 16711680
+            },
+            "isInverted": false
+          }
+        ],
+        "steps": {
+          "0": {
+            "action_sets": {
+              "down": [
+                {
+                  "id": "jJSEpzDH7_LgOtWCKbVvI",
+                  "action": "instance_control",
+                  "instance": "internal",
+                  "options": {
+                    "instance_id": "o9c4iq_xaVccR5XrnclO8",
+                    "enable": "toggle"
+                  },
+                  "delay": 0
+                }
+              ],
+              "up": []
+            },
+            "options": {
+              "runWhileHeld": []
+            }
+          }
+        }
+      },
+    "pre-x": {
+      "type": "button",
+      "style": {
+        "text": "PreX",
+        "size": "auto",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 8421631,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "rAMUEdTdKM1utp-aFv5bo",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 3,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "xg1jv6wMsdJBtBrRZI_pv",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 30,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 12,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "iwD1gQEZJnwrhZP3frSFu",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 15,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 1,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "post-x": {
+      "type": "button",
+      "style": {
+        "text": "PostX",
+        "size": "auto",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 4210943,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "q43-dPcXCqG5nKY4knzIG",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 5,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "iwD1gQEZJnwrhZP3frSFu",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 15,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 1,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "1min": {
+      "type": "button",
+      "style": {
+        "text": "1 MIN",
+        "size": "auto",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 16728128,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "fbyol_ijf11v759WD5RXA",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 4,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "clear": {
+      "type": "button",
+      "style": {
+        "text": "CLEAR",
+        "size": "18",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 16711680,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "r5b6zCq-D47J25daK8BWt",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 10,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 2,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "open-first": {
+      "type": "button",
+      "style": {
+        "text": "OPEN 1",
+        "size": "14",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 16752448,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "AVBe02VqrX0g5jZtGoX0a",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 11,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "3zf0bDEtCyOVOVBjWSi6v",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 15,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 2,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "yVMW4jdF7eNYivUDcwjXK",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 30,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 11,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "open-other": {
+      "type": "button",
+      "style": {
+        "text": "OPEN X",
+        "size": "14",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 13395200,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "iwD1gQEZJnwrhZP3frSFu",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 15,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 1,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "worship-first": {
+      "type": "button",
+      "style": {
+        "text": "WORSHIP 1",
+        "size": "14",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 16752448,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "6T3ialNiYjeQtQwPHMgYe",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 12,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "XFF7cxiVyWO3F-CGkoKT1",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 15,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 1,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "worship-other": {
+      "type": "button",
+      "style": {
+        "text": "WORSHIP X",
+        "size": "14",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 13395200,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "pWs_EX0M65rX5sdTUSMPF",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 15,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 1,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "altar": {
+      "type": "button",
+      "style": {
+        "text": "ALTAR",
+        "size": "14",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 16752448,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "KER7iY7OUXsSUgc9x38iy",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 13,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "pWs_EX0M65rX5sdTUSMPF",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 15,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 18,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "prelim": {
+      "type": "button",
+      "style": {
+        "text": "PRELIM NORM",
+        "size": "14",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 52224,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "oKESixwAA42azjhtjeAX2",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 19,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "pWs_EX0M65rX5sdTUSMPF",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 15,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 1,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "prelim-vid": {
+      "type": "button",
+      "style": {
+        "text": "PRELIM VID",
+        "size": "14",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 39168,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "iP4mHfz45RGCOcjpS09cW",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 20,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "prelim-ctw": {
+      "type": "button",
+      "style": {
+        "text": "PRELIM CTW",
+        "size": "14",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 26112,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "LeV2BAouV1yQ3hGlqMZhB",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 21,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    },
+    "message": {
+      "type": "button",
+      "style": {
+        "text": "MESSAGE NORM",
+        "size": "14",
+        "png": null,
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 10027161,
+        "show_topbar": "default",
+        "textExpression": false
+      },
+      "options": {
+        "relativeDelay": false,
+        "stepAutoProgress": true
+      },
+      "feedbacks": [],
+      "steps": {
+        "0": {
+          "action_sets": {
+            "down": [
+              {
+                "id": "VjXZooOm6ibnDuALsZNwv",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 11,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 27,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              },
+              {
+                "id": "pWs_EX0M65rX5sdTUSMPF",
+                "action": "button_pressrelease",
+                "instance": "internal",
+                "options": {
+                  "page_from_variable": false,
+                  "page": 15,
+                  "page_variable": "1",
+                  "bank_from_variable": false,
+                  "bank": 1,
+                  "bank_variable": "1",
+                  "force": false
+                },
+                "delay": 0
+              }
+            ],
+            "up": []
+          },
+          "options": {
+            "runWhileHeld": []
+          }
+        }
+      }
+    }
+  }
