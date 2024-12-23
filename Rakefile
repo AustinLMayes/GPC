@@ -51,7 +51,7 @@ end
 
 desc "Make load script"
 task :save_show do
-    script = MSSQL.data_replace_script($client,["CueListsV3","CueValuesV3","MatrixV2","PlayBacksV3","AnalFaders"],'ShowData', sequences: ["SeqCueListId"])
+    script = MSSQL.data_replace_script($client,["CueListsV3","CueValuesV3","MatrixV2","AnalFaders"],'ShowData', sequences: ["SeqCueListId"])
     File.open('/Users/austinmayes/Documents/sql-server/load.sql','w') do |f|
         f.write(script)
     end

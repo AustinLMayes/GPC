@@ -107,6 +107,7 @@ class Song
             else
                 @slide = type
             end
+            self
         end
 
         def set_time(val, scale = :sec)
@@ -192,7 +193,7 @@ class Song
             names.each { |name| song_dynamic_method(name) }
         end
 
-        song_sec_methods :intro, :verse, :pre_chorus, :chorus, :post_chorus, :bridge, :outro, :tag, :interlude, :vamp, :turnaround, :instrumental, :ending
+        song_sec_methods :intro, :verse, :pre_chorus, :chorus, :post_chorus, :bridge, :outro, :tag, :interlude, :vamp, :turnaround, :instrumental, :ending, :refrain
         song_dynamic_methods :slowly_build, :build, :break, :breakdown, :all_in, :drums_in, :drums, :swell, :half_time, :double_time, :drive, :groove, :wash, :walk, :church, :hits
 
     end
