@@ -113,7 +113,7 @@ class ServiceJSON
                 {type: "house", look: "2-3"}
             else
                 {type: "house", look: "altar-hype"}
-                warn "More than 3 worship songs - falling back to altar hype"
+                warning "More than 3 worship songs - falling back to altar hype"
             end
         end
     end
@@ -130,7 +130,7 @@ class ServiceJSON
                 {type: "haze", output: "light"}
             else
                 {type: "haze", output: "off"}
-                warn "More than 2 worship songs - falling back to hazer off"
+                warning "More than 2 worship songs - falling back to hazer off"
             end
         end
     end

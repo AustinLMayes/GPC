@@ -79,7 +79,7 @@ class Section
         elsif heading.include?("prayer")
             PRAYER
         else
-            warn "Unknown section heading: #{heading} - Falling back to next section based on index"
+            warning "Unknown section heading: #{heading} - Falling back to next section based on index"
             case index
             when 0
                 OPENER

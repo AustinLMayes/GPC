@@ -130,7 +130,7 @@ def handle_generic(item)
             @hold_at_cur_index = true
         else
             @service.increment_section_index
-            warn "Found item in worship section that is not a song! #{item['attributes']['title']}"
+            warning "Found item in worship section that is not a song! #{item['attributes']['title']}"
         end
     when Section::MESSAGE
         if @service.at_beginning_of_section? || (@service.in_video? && !to_video)
@@ -162,7 +162,7 @@ def handle_generic(item)
         macros += @service.trigger_video
     end
     if macros.empty?
-        warn "No macros for #{item["attributes"]["title"]}"
+        warning "No macros for #{item["attributes"]["title"]}"
     else
         @service.add_cue(release_current: release_current, name: item["attributes"]["title"].strip, comment: Section.name(@service.current_section) + ": #{item["attributes"]["title"]}", time: 0, macros: macros)
     end

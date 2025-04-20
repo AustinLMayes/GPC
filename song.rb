@@ -26,7 +26,7 @@ class Song
             @make_cuelist = true
         else
             @make_cuelist = false
-            warn "Cuelist #{@name} already exists! Not making cues."
+            warning "Cuelist #{@name} already exists! Not making cues."
         end
         @slide_refs = {}
         @current_slide = 0
@@ -38,7 +38,7 @@ class Song
         cue { |c| c.set_name("Fade") }
         path = "/Users/austinmayes/Documents/ProPresSongs/#{@name}.txt"
         if File.exists?(path)
-            warn "Slide file already exists! Not making slides."
+            warning "Slide file already exists! Not making slides."
             return
         end
         File.open(path, 'w') do |file|
