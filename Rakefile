@@ -3,7 +3,6 @@
 require 'tiny_tds'
 require 'common'
 require 'onyx'
-require 'pro_pres_api'
 require_relative 'service_json'
 require_relative 'service'
 require_relative 'pco/pco'
