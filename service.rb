@@ -134,7 +134,7 @@ class Service
     # Save the companion page JSON to a file
     def save_companion_page(name)
         json = @page.to_json
-        Dir.mkdir("companion") unless File.exists?("companion")
+        Dir.mkdir("companion") unless File.exist?("companion")
         File.open("companion/#{name}.companionconfig", 'w') do |file|
             file.write(json)
         end

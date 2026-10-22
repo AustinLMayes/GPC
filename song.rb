@@ -37,7 +37,7 @@ class Song
     def create
         cue { |c| c.set_name("Fade") }
         path = "/Users/austinmayes/Documents/ProPresSongs/#{@name}.txt"
-        if File.exists?(path)
+        if File.exist?(path)
             warning "Slide file already exists! Not making slides."
             return
         end

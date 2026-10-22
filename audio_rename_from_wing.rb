@@ -5,10 +5,10 @@ require 'json'
 
 SNAP_PATH = ARGV[0]
 raise "No snapshot path provided" if SNAP_PATH.nil?
-raise "Snapshot file does not exist" unless File.exists?(SNAP_PATH)
+raise "Snapshot file does not exist" unless File.exist?(SNAP_PATH)
 AUDIO_PATH = ARGV[1]
 raise "No audio path provided" if AUDIO_PATH.nil?
-raise "Audio path does not exist" unless File.exists?(AUDIO_PATH)
+raise "Audio path does not exist" unless File.exist?(AUDIO_PATH)
 
 @seen_names = []
 
